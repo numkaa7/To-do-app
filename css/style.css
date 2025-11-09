@@ -99,7 +99,7 @@ body{
   align-items: center;
   width: 100%;
 }
-.input-area :hover{
+.input-area input:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
 }
 
@@ -128,14 +128,20 @@ body{
   color: #fff;
   font-size: 1.1rem;
   background:#7f7f7f3c;
-  border: 2px solid#656565;
+  border: 2px solid #656565;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
+
 .input-area button:hover{
-  transform: scale(1.1);
+  transform: scale(1.15);
   background: #27252690;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
+}
+
+.input-area button:active {
+  transform: scale(1);
 }
 
 .todos-container{
@@ -227,6 +233,7 @@ body{
 .task-buttons button:hover {
   transform: scale(1.2);
 }
+
 
 .task-buttons .edit-btn {
   background: #a5008cc7;
